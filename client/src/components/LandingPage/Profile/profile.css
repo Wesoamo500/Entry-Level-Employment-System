@@ -1,0 +1,40 @@
+.profile-container{
+    background-image: url('./profile.jpg');
+	background-size: contain;
+	width: 100vw;
+	height: 1000vh;
+    border:1px solid black;
+    background-repeat: no-repeat;
+}
+.form-update{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background-color:rgba(255, 255,255,0.5);
+    padding: 20px;
+    margin-top: 40px;
+}
+.img-avatar{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:600px) {
+    .profile-container{
+        top:60px;
+        width: 100%;
+    }
+    .form-update{
+        padding: 40px;
+        width: 100%;
+        transform: none;
+        left: 0;
+        top:20px;
+    }
+}

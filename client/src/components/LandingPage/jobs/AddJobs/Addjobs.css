@@ -1,0 +1,19 @@
+.addjob{
+	border:1px solid gray;
+	width: 20%;
+	height: 100%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	row-gap: 20px;
+	padding: 20px;
+	background: white;
+}
+
+@media screen and (max-width:600px){
+	.addjob{
+		width: 100%;
+		padding: 20px;
+		border: none;
+	}
+}

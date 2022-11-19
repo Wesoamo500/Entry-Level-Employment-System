@@ -1,0 +1,32 @@
+.job{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	top:120px;
+	background-image: url('./first.jpg');
+	background-size:contain;
+	width: 100vw;
+	height: inherit;
+}
+
+.mobile-job{
+	display: none;
+}
+/* .bg{
+	background-image: url('./first.jpg');
+	background-size:cover;
+	width: 100vw;
+	height: 100%;
+} */
+@media only screen and (max-width:600px){
+	
+	.job{
+		display: none;
+	}
+
+	.mobile-job{
+		display: block;
+		position: relative;
+		top: 60px;
+	}
+}
